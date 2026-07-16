@@ -52,16 +52,15 @@ body{
 
 .card-contacto{
     display: grid;
-    grid-template-columns: 60px auto;
-    justify-content: center;
+    grid-template-columns: 55px 1fr;
     align-items: center;
+    justify-content: center;
     column-gap: 20px;
     background: #fff;
-    padding: 14px 18 px;
-    margin-bottom: 25px;
-    border-radius: 14px;
+    padding: 18px 25px;
+    margin-bottom: 20px;
+    border-radius: 16px;
     box-shadow: 0 8px 20px rgba(0,0,0,.08);
-    transition: .4s;
 }
 
 .card-contacto:hover{
@@ -70,25 +69,29 @@ body{
 }
 
 .card-contacto img{
-    width: 36px;
-    height: 36px;
+    width: 42px;
+    height: 42px;
     object-fit: contain;
-    justify-self: end;
+    justify-self: center;
 }
 
 .card-contacto div{
-    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card-contacto h3{
+    font-size: 18px;
     color: #000000;
     margin-bottom: 8px;
-    font-size: 22px;
 }
 
 .card-contacto p{
+    font-size: 15px;
+    line-height: 1.7;
     color: #555;
-    line-height: 28px;
+    margin: 0;
 }
 
 .formulario{
