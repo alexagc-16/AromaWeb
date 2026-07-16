@@ -119,6 +119,11 @@
     </section>
     
     <div id="footer"></div>
+
+    <div id="navbar"></div> 
+    
+    <script> fetch('nav.html') .then(response=> response.text()) .then(data => { document.getElementById('navbar').innerHTML = data; }); </script>
+
     <script src="../js/footer.js"></script>
 
     <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script> 
