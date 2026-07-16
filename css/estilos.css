@@ -26,12 +26,16 @@
 }
 
 .carousel-caption{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:2;
-    width:70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    width: 70%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
 }
 
 .carousel-caption h1{
@@ -73,3 +77,16 @@
 .carousel-control-next{
     width:8%;
 }
+
+.carousel-caption h1,
+.carousel-caption h3,
+.carousel-caption p{
+    text-align: center;
+}
+
+.carousel-caption p{
+    max-width: 700px;
+    margin: 20px auto 0;
+}
+
+/*    <link rel="stylesheet" href="css/footer.css">
