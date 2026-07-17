@@ -8,7 +8,7 @@
 .nosotros{
     text-align:center;
     padding:80px 10%;
-    background:#f8f4ef;
+    background:#ffff;
 }
 
 .contenedor-nosotros{
@@ -31,8 +31,8 @@
 }
 
 .texto-nosotros{
-    flex:1;
-    min-width:300px;
+    display:flex;
+    flex-direction:column;
 }
 
 .texto-nosotros h2{
@@ -50,18 +50,24 @@
 
 .valores{
     display:flex;
-    gap:20px;
+    flex-direction:column;
+    gap:25px;
     margin-top:30px;
-    flex-wrap:wrap;
 }
 
 .valor{
+    width:100%;
+    min-height:170px;
     background:white;
     border-radius:12px;
     padding:25px;
-    border-bottom:5px solid #000000;
-    transition:.4s;
+    border-bottom:5px solid #000;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
     text-align:center;
+    transition:.4s;
 }
 
 .valor i{
@@ -124,7 +130,7 @@ blockquote{
 
 .productos{
     padding:100px ;
-    background: #f7f5f2;
+    background: #ffff;
 }
 
 .productos h2{

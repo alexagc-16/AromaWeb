@@ -12,13 +12,6 @@
     </head>
     <body>
         <div id="navbar"></div>
-        <script>
-            fetch('nav.html')
-            .then(response=> response.text())
-            .then(data => {
-                document.getElementById('navbar').innerHTML = data;
-            }); 
-        </script>
 
         <section class="nosotros">
             <div class="contenedor-nosotros">
@@ -26,30 +19,38 @@
                     <img src="../img/cafenosotros.jpg" alt="Cafetería AromaWeb">
                 </div>
 
-                <section class="nosotros">
 
                 <div class="titulo-seccion">
                     <h2>¿Quiénes Somos?</h2>
                     <div class="linea"></div>
-                    <p>Conoce la historia y la pasión detrás de cada taza de café.</p>
+                    <p> En <strong>AromaWeb</strong> somos una cafetería dedicada a brindar una experiencia única a través del auténtico sabor del café y un ambiente cálido y acogedor. Nos esforzamos por ofrecer productos de alta calidad, preparados con dedicación y pasión, para que cada visita se convierta en un momento especial. Nuestro compromiso es combinar tradición, excelente servicio y el amor por el café en cada taza que compartimos con nuestros clientes.</p>
                 </div>
 
                 <div class="contenedor-nosotros">
 
                     <div class="texto-nosotros">
                         <h2>Nosotros</h2>
-                        <p>
-                            En <strong>AromaWeb</strong> creemos que una buena taza de café puede
-                            transformar cualquier momento del día. Nos dedicamos a ofrecer café
-                            de alta calidad, preparado con granos cuidadosamente seleccionados y
-                            acompañado de un ambiente cálido y acogedor.
-                        </p>
+                            <p>
+                                En <strong>AromaWeb</strong> creemos que una buena taza de café tiene el poder
+                                de transformar cualquier momento del día. Nos dedicamos a ofrecer café de
+                                alta calidad, preparado con granos cuidadosamente seleccionados y acompañado
+                                de un ambiente cálido, acogedor y pensado para brindar una experiencia
+                                inolvidable a cada uno de nuestros visitantes.
+                            </p>
 
-                        <p>
-                            Nuestro objetivo es brindar una experiencia única a cada cliente,
-                            ofreciendo bebidas artesanales, postres frescos y un excelente
-                            servicio que haga sentir a todos como en casa.
-                        </p>
+                            <p>
+                                Nuestro objetivo es combinar tradición, sabor e innovación en cada bebida y
+                                en cada producto que ofrecemos. Trabajamos con dedicación para garantizar la
+                                frescura, la excelencia y un servicio amable que haga sentir a nuestros
+                                clientes como en casa desde el primer momento.
+                            </p>
+
+                            <p>
+                                Más que una cafetería, somos un espacio donde amigos, familias y amantes del
+                                café pueden compartir, conversar y disfrutar de momentos especiales. Cada
+                                taza que servimos refleja nuestra pasión, compromiso y el deseo de crear
+                                recuerdos únicos alrededor del auténtico aroma del café.
+                            </p>
 
                         <div class="valores">
 
@@ -81,9 +82,10 @@
                 </blockquote>
             </div>
         </section>
+
         <div id="footer"></div>
-        <script src="../js/footer.js"></script>
         <script src="../js/nav.js"></script>
+        <script src="../js/footer.js"></script>
         <script src="../lib/bootstrap/js/bootstrap.bundle.js"></script>
     </body>
 </html>

@@ -1,6 +1,3 @@
-js/nav.js
-
-javascript
 const navbar = document.getElementById("navbar");
 
 let rutaNav;
