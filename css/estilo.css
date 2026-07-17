@@ -1,54 +1,8 @@
-.header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    background:#1f1f1f;
-    padding:20px 8%;
-}
-
-.logo{
-    display:flex;
-    align-items:center;
-}
-
-.logo-img{
-    width:80px;
-    height:80px;
-    border-radius:50%;
-    margin-right:15px;
-}
-
-.logo-text h1{
-    color:white;
-    font-size:35px;
-}
-
-.logo-text p{
-    color:#F8EDE3;
-    font-style:italic;
-}
-
-.menu ul{
-    display:flex;
-    list-style:none;
-}
-
-.menu ul li{
-    margin-left:35px;
-}
-
-.menu ul li a{
-    text-decoration:none;
-    color:white;
-    font-weight:600;
-    padding:8px 15px;
-    border-radius:25px;
-    transition:.4s;
-}
-
-.menu ul li a:hover{
-    background:#D4A373;
-    color:#3E2723;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nosotros{
@@ -83,7 +37,7 @@
 
 .texto-nosotros h2{
     font-size:40px;
-    color:#5C3D2E;
+    color:#000000;
     margin-bottom:20px;
 }
 
@@ -105,14 +59,14 @@
     background:white;
     border-radius:12px;
     padding:25px;
-    border-bottom:5px solid #8B5E3C;
+    border-bottom:5px solid #000000;
     transition:.4s;
     text-align:center;
 }
 
 .valor i{
     font-size:35px;
-    color:#8B5E3C;
+    color:#000000;
     margin-bottom:15px;
 }
 
@@ -128,13 +82,13 @@
 
 .titulo-seccion h2{
     font-size:45px;
-    color:#5C3D2E;
+    color:#000000;
 }
 
 .linea{
     width:90px;
     height:4px;
-    background:#C68B59;
+    background:#000000;
     margin:15px auto;
     border-radius:10px;
 }
@@ -147,7 +101,7 @@
 .btn-nosotros{
     display:inline-block;
     margin-top:25px;
-    background:#6F4E37;
+    background:#000000;
     color:white;
     padding:14px 30px;
     border-radius:30px;
@@ -157,13 +111,13 @@
 }
 
 .btn-nosotros:hover{
-    background:#C68B59;
+    background:#d6a46c;
 }
 
 blockquote{
     margin-top:30px;
     padding-left:20px;
-    border-left:4px solid #8B5E3C;
+    border-left:4px solid #000000;
     font-style:italic;
     color:#555;
 }
@@ -176,7 +130,7 @@ blockquote{
 .productos h2{
     text-align:center;
     font-size:40px;
-    color:#4E342E;
+    color:#000000;
     margin-bottom:40px;
 }
 
@@ -208,23 +162,12 @@ blockquote{
 
 .info-producto{
     padding:20px;
-    border-bottom:6px solid #6F4E37;
+    border-bottom:6px solid #000000;
+    text-align:center;
 }
 
 .info-producto h3{
-    color:#4E342E;
+    color:#000000;
     margin-bottom:10px;
     text-align:center;
-}
-
-.info-producto p{
-    color:#555;
-    text-align:center;
-    margin-bottom:15px;
-}
-
-.info-producto h4{
-    color:#6F4E37;
-    text-align:center;
-    font-size:22px;
 }
