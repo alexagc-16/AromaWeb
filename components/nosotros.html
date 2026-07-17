@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AromaWeb</title>
+        <link rel="stylesheet" href="../css/estilo.css">
+        <link rel="stylesheet" href="../css/nav.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap-grid.min.css">
+
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('nav.html')
+            .then(response=> response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            }); 
+        </script>
+
+        <section class="nosotros">
+            <div class="contenedor-nosotros">
+                <div class="imagen-nosotros">
+                    <img src="../img/cafenosotros.jpg" alt="Cafetería AromaWeb">
+                </div>
+
+                <section class="nosotros">
+
+                <div class="titulo-seccion">
+                    <h2>¿Quiénes Somos?</h2>
+                    <div class="linea"></div>
+                    <p>Conoce la historia y la pasión detrás de cada taza de café.</p>
+                </div>
+
+                <div class="contenedor-nosotros">
+
+                    <div class="texto-nosotros">
+                        <h2>Nosotros</h2>
+                        <p>
+                            En <strong>AromaWeb</strong> creemos que una buena taza de café puede
+                            transformar cualquier momento del día. Nos dedicamos a ofrecer café
+                            de alta calidad, preparado con granos cuidadosamente seleccionados y
+                            acompañado de un ambiente cálido y acogedor.
+                        </p>
+
+                        <p>
+                            Nuestro objetivo es brindar una experiencia única a cada cliente,
+                            ofreciendo bebidas artesanales, postres frescos y un excelente
+                            servicio que haga sentir a todos como en casa.
+                        </p>
+
+                        <div class="valores">
+
+                        <div class="valor">
+                            <i class="fas fa-mug-hot"></i>
+                            <h3>Calidad</h3>
+                            <p>Los mejores granos, el mejor sabor.</p>
+                        </div>
+
+                        <div class="valor">
+                            <i class="fas fa-heart"></i>
+                            <h3>Pasión</h3>
+                            <p>Preparamos cada bebida con dedicación y amor por el café.</p>
+                        </div>
+
+                        <div class="valor">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Compromiso</h3>
+                            <p>Apoyamos prácticas responsables y el consumo sostenible.</p>
+                        </div>
+
+                    </div>   
+                </div>
+                <a href="productos.html" class="btn-nosotros">
+                    Conoce nuestro menú
+                </a>
+                <blockquote>
+                    "Cada taza cuenta una historia, cada aroma crea un recuerdo."
+                </blockquote>
+            </div>
+        </section>
+        <div id="footer"></div>
+        <script src="../js/footer.js"></script>
+        <script src="../js/nav.js"></script>
+        <script src="../lib/bootstrap/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
