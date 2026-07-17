@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AromaWeb</title>
+        <link rel="stylesheet" href="../css/estilo.css">
+        <link rel="stylesheet" href="../css/nav.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap-grid.min.css">
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('nav.html')
+            .then(response=> response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            }); 
+        </script>
+
+        <section class="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="contenedor-productos">
+                <div class="producto">
+                    <img src="../img/cafeexpreso.jpg" alt="Espresso">
+                    <div class="info-producto">
+                        <h3>Café Espresso</h3>
+                        <p>Café colombiano 100% artesanal con sabor intenso.</p>
+                        <h4>$6.000</h4>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="../img/capuchino.avif" alt="Cappuccino">
+                    <div class="info-producto">
+                        <h3>Cappuccino</h3>
+                        <p>Preparado con leche espumada y canela.</p>
+                        <h4>$9.000</h4>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="../img/frappe.jpg" alt="Frappé">
+                    <div class="info-producto">
+                        <h3>Frappé</h3>
+                        <p>Bebida fría con café, hielo y crema batida.</p>
+                        <h4>$12.000</h4>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="../img/Cheesecake.png" alt="Cheesecake">
+                    <div class="info-producto">
+                        <h3>Cheesecake</h3>
+                        <p>Postre artesanal con frutos rojos.</p>
+                        <h4>$10.000</h4>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="../img/chocolatecaliente.jpg" alt="chocolatecaliente">
+                    <div class="info-producto">
+                        <h3>Chocolate Caliente</h3>
+                        <p>Chocolate artesanal preparado con leche caliente.</p>
+                        <h4>$8.000</h4>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="../img/malteada.jpg" alt="malteada">
+                    <div class="info-producto">
+                        <h3>Malteada</h3>
+                        <p>Bebida cremosa con leche y helado artesanal.</p>
+                        <h4>$13.000</h4>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="../img/limomada.webp" alt="limonada">
+                    <div class="info-producto">
+                        <h3>Limonada</h3>
+                        <p>Refrescante bebida preparada con limón natural.</p>
+                        <h4>$7.000</h4>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="../img/dona.jpg" alt="dona">
+                    <div class="info-producto">
+                        <h3>Dona</h3>
+                        <p>Rosquilla dulce con chocolate.</p>
+                        <h4>$5.000</h4>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="../img/brownie.jpg" alt="brownie">
+                    <div class="info-producto">
+                        <h3>Brownie</h3>
+                        <p>Bizcocho de chocolate con textura suave y húmeda.</p>
+                        <h4>$10.000</h4>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="../img/cafegrano.jpg" alt="cafegrano">
+                    <div class="info-producto">
+                        <h3>Café en Grano</h3>
+                        <p>Granos de café premium recién tostados.</p>
+                        <h4>$35.000</h4>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="../img/cafemolido.jpg" alt="cafemolido">
+                    <div class="info-producto">
+                        <h3>Café molido</h3>
+                        <p>Café listo para preparar en casa.</p>
+                        <h4>$30.000</h4>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="../img/cafecapsulas.jpg" alt="cafecapsulas">
+                    <div class="info-producto">
+                        <h3>Capsulas de Café</h3>
+                        <p>Capsulas compatibles de cafe gourmet.</p>
+                        <h4>$28.000</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="footer"></div>
+        <script src="../js/footer.js"></script>
+        <script src="../js/nav.js"></script>
+        <script src="../lib/bootstrap/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
